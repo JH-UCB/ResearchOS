@@ -1,0 +1,44 @@
+run:
+  root_dir: runs
+  experiment_name: inverse_deconvolution_param_vector
+  notes: "Optimize x directly with TV regularization"
+  resume_if_completed: true
+
+seed:
+  seed: 0
+  deterministic_torch: false
+
+trainer:
+  device: auto
+  max_epochs: 50
+  # steps_per_epoch derived from task if omitted
+  early_stopping_patience: 20
+  log_every_epochs: 1
+  eval_every_epochs: 1
+  mixed_precision: false
+
+optim:
+  lr: 0.05
+  weight_decay: 0.0
+  use_plateau_scheduler: true
+  plateau_factor: 0.5
+  plateau_patience: 10
+  plateau_min_lr: 1.0e-4
+
+task:
+  name: inverse_deconvolution1d
+  signal_length: 256
+  kernel_sigma: 2.0
+  noise_std: 0.03
+  w_data: 1.0
+  w_tv: 0.02
+  steps_per_epoch: 200
+  save_artifacts: true
+  save_plots: false
+
+model:
+  name: param_vector
+  length: 256
+  init: zeros
+  init_scale: 0.01
+

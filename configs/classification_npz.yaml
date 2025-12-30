@@ -1,0 +1,41 @@
+run:
+  root_dir: runs
+  experiment_name: classification_npz_mlp
+  notes: "Supervised sanity-check baseline"
+  resume_if_completed: true
+
+seed:
+  seed: 0
+  deterministic_torch: false
+
+trainer:
+  device: auto
+  max_epochs: 50
+  early_stopping_patience: 10
+  log_every_epochs: 1
+  eval_every_epochs: 1
+  mixed_precision: false
+
+optim:
+  lr: 0.001
+  weight_decay: 1.0e-5
+  use_plateau_scheduler: true
+  plateau_factor: 0.5
+  plateau_patience: 5
+  plateau_min_lr: 1.0e-6
+
+task:
+  name: classification_npz
+  npz_path: data/dataset.npz
+  batch_size: 256
+  num_workers: 0
+  pin_memory: false
+  num_classes: 2
+
+model:
+  name: mlp
+  hidden_layers: [256, 128, 64]
+  activation: relu
+  dropout: 0.2
+  use_batchnorm: true
+

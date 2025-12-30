@@ -1,0 +1,39 @@
+{
+  "run_id": "6c48cf6307dc",
+  "experiment_name": "pinn_poisson1d_fourier",
+  "task": {
+    "name": "pinn_poisson1d",
+    "n_interior": 512,
+    "n_boundary": 64,
+    "steps_per_epoch": 50,
+    "w_pde": 1.0,
+    "w_bc": 10.0,
+    "n_eval": 256,
+    "forcing": "sin_pi"
+  },
+  "model": {
+    "name": "fourier_mlp",
+    "hidden_layers": [
+      256,
+      256,
+      256
+    ],
+    "activation": "tanh",
+    "dropout": 0.0,
+    "use_batchnorm": false,
+    "fourier_features": 64,
+    "fourier_scale": 10.0
+  },
+  "train_summary": {
+    "best_epoch": 1,
+    "best_metric": 0.8650786438277996,
+    "primary_metric": "eval_rel_l2",
+    "primary_mode": "min",
+    "wall_time_sec": 36.50304412841797
+  },
+  "final_eval": {
+    "eval_rel_l2": 0.8650786438277996,
+    "eval_linf": 1.0934840440750122,
+    "eval_rel_l2_fd": 0.8650798463543892
+  }
+}

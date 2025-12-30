@@ -1,0 +1,47 @@
+run:
+  root_dir: runs
+  experiment_name: pinn_poisson1d_fourier
+  notes: "1D Poisson PINN with Fourier features"
+  resume_if_completed: true
+
+seed:
+  seed: 0
+  deterministic_torch: false
+
+trainer:
+  device: auto
+  max_epochs: 200
+  # For PINN tasks, steps_per_epoch is derived from task if omitted
+  early_stopping_patience: 50
+  log_every_epochs: 1
+  eval_every_epochs: 1
+  grad_clip_norm: 1.0
+  mixed_precision: false
+
+optim:
+  lr: 0.001
+  weight_decay: 0.0
+  use_plateau_scheduler: true
+  plateau_factor: 0.5
+  plateau_patience: 20
+  plateau_min_lr: 1.0e-6
+
+task:
+  name: pinn_poisson1d
+  n_interior: 512
+  n_boundary: 64
+  steps_per_epoch: 50
+  w_pde: 1.0
+  w_bc: 10.0
+  n_eval: 256
+  forcing: sin_pi
+
+model:
+  name: fourier_mlp
+  hidden_layers: [256, 256, 256]
+  activation: tanh
+  dropout: 0.0
+  use_batchnorm: false
+  fourier_features: 64
+  fourier_scale: 10.0
+

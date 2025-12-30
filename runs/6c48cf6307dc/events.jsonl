@@ -1,0 +1,108 @@
+{"ts": "2025-12-30T01:38:55Z", "event": "run_start", "run_id": "6c48cf6307dc", "experiment_name": "pinn_poisson1d_fourier", "python": "3.10.7 (v3.10.7:6cc6b13308, Sep  5 2022, 14:02:52) [Clang 13.0.0 (clang-1300.0.29.30)]", "platform": "macOS-15.7.1-arm64-arm-64bit", "torch_version": "2.0.1", "device": "cpu"}
+{"ts": "2025-12-30T01:38:55Z", "event": "message", "message": "Training start on device=cpu, amp=False"}
+{"ts": "2025-12-30T01:38:56Z", "event": "epoch_metrics", "epoch": 1, "stage": "train", "metrics": {"loss": 16486858.4225, "loss_bc": 0.5125134173035621, "loss_pde": 16486853.4075}}
+{"ts": "2025-12-30T01:38:56Z", "event": "global_eval", "epoch": 1, "metrics": {"eval_rel_l2": 0.8650786438277996, "eval_linf": 1.0934840440750122, "eval_rel_l2_fd": 0.8650798463543892}}
+{"ts": "2025-12-30T01:38:56Z", "event": "checkpoint_best", "epoch": 1, "metric": 0.8650786438277996, "metric_name": "eval_rel_l2"}
+{"ts": "2025-12-30T01:38:56Z", "event": "epoch_metrics", "epoch": 2, "stage": "train", "metrics": {"loss": 1624950.28375, "loss_bc": 0.11548803724348546, "loss_pde": 1624949.1325}}
+{"ts": "2025-12-30T01:38:56Z", "event": "global_eval", "epoch": 2, "metrics": {"eval_rel_l2": 0.9238830954831451, "eval_linf": 1.0377548933029175, "eval_rel_l2_fd": 0.9238838908669952}}
+{"ts": "2025-12-30T01:38:57Z", "event": "epoch_metrics", "epoch": 3, "stage": "train", "metrics": {"loss": 875691.955, "loss_bc": 0.038071236349642275, "loss_pde": 875691.57125}}
+{"ts": "2025-12-30T01:38:57Z", "event": "global_eval", "epoch": 3, "metrics": {"eval_rel_l2": 0.9638527240923835, "eval_linf": 0.987288773059845, "eval_rel_l2_fd": 0.9638530131145137}}
+{"ts": "2025-12-30T01:38:58Z", "event": "epoch_metrics", "epoch": 4, "stage": "train", "metrics": {"loss": 616603.01625, "loss_bc": 0.013672423618845641, "loss_pde": 616602.87875}}
+{"ts": "2025-12-30T01:38:58Z", "event": "global_eval", "epoch": 4, "metrics": {"eval_rel_l2": 0.9778349657814235, "eval_linf": 1.009252905845642, "eval_rel_l2_fd": 0.9778351621250054}}
+{"ts": "2025-12-30T01:38:58Z", "event": "epoch_metrics", "epoch": 5, "stage": "train", "metrics": {"loss": 401804.4815625, "loss_bc": 0.01005946368444711, "loss_pde": 401804.3790625}}
+{"ts": "2025-12-30T01:38:58Z", "event": "global_eval", "epoch": 5, "metrics": {"eval_rel_l2": 1.024549982305787, "eval_linf": 1.049923300743103, "eval_rel_l2_fd": 1.0245496712903561}}
+{"ts": "2025-12-30T01:38:59Z", "event": "epoch_metrics", "epoch": 6, "stage": "train", "metrics": {"loss": 310261.2025, "loss_bc": 0.005583061715587974, "loss_pde": 310261.148125}}
+{"ts": "2025-12-30T01:38:59Z", "event": "global_eval", "epoch": 6, "metrics": {"eval_rel_l2": 1.0061723348385818, "eval_linf": 0.99424809217453, "eval_rel_l2_fd": 1.0061722566433573}}
+{"ts": "2025-12-30T01:39:00Z", "event": "epoch_metrics", "epoch": 7, "stage": "train", "metrics": {"loss": 214250.8175, "loss_bc": 0.0048689719988033175, "loss_pde": 214250.7690625}}
+{"ts": "2025-12-30T01:39:00Z", "event": "global_eval", "epoch": 7, "metrics": {"eval_rel_l2": 1.0056053627969843, "eval_linf": 0.9836013317108154, "eval_rel_l2_fd": 1.0056052073267894}}
+{"ts": "2025-12-30T01:39:00Z", "event": "epoch_metrics", "epoch": 8, "stage": "train", "metrics": {"loss": 160790.4871875, "loss_bc": 0.0018978933242033236, "loss_pde": 160790.46796875}}
+{"ts": "2025-12-30T01:39:00Z", "event": "global_eval", "epoch": 8, "metrics": {"eval_rel_l2": 0.9936774973838001, "eval_linf": 0.9828994870185852, "eval_rel_l2_fd": 0.993677493023702}}
+{"ts": "2025-12-30T01:39:01Z", "event": "epoch_metrics", "epoch": 9, "stage": "train", "metrics": {"loss": 118145.384375, "loss_bc": 0.0012611183049739338, "loss_pde": 118145.37140625}}
+{"ts": "2025-12-30T01:39:01Z", "event": "global_eval", "epoch": 9, "metrics": {"eval_rel_l2": 0.9728094972250194, "eval_linf": 0.9735121726989746, "eval_rel_l2_fd": 0.972809841692312}}
+{"ts": "2025-12-30T01:39:02Z", "event": "epoch_metrics", "epoch": 10, "stage": "train", "metrics": {"loss": 82148.844140625, "loss_bc": 0.0009810502569598612, "loss_pde": 82148.83453125}}
+{"ts": "2025-12-30T01:39:02Z", "event": "global_eval", "epoch": 10, "metrics": {"eval_rel_l2": 0.9604278345856317, "eval_linf": 0.9637385606765747, "eval_rel_l2_fd": 0.9604283359120248}}
+{"ts": "2025-12-30T01:39:03Z", "event": "epoch_metrics", "epoch": 11, "stage": "train", "metrics": {"loss": 62811.342421875, "loss_bc": 0.0006899229717237176, "loss_pde": 62811.335859375}}
+{"ts": "2025-12-30T01:39:03Z", "event": "global_eval", "epoch": 11, "metrics": {"eval_rel_l2": 0.9773244966887055, "eval_linf": 0.9664071798324585, "eval_rel_l2_fd": 0.9773247839569954}}
+{"ts": "2025-12-30T01:39:03Z", "event": "epoch_metrics", "epoch": 12, "stage": "train", "metrics": {"loss": 45052.47421875, "loss_bc": 0.0006238194235993433, "loss_pde": 45052.46796875}}
+{"ts": "2025-12-30T01:39:03Z", "event": "global_eval", "epoch": 12, "metrics": {"eval_rel_l2": 0.9674868180899795, "eval_linf": 0.9770851135253906, "eval_rel_l2_fd": 0.9674871455307481}}
+{"ts": "2025-12-30T01:39:04Z", "event": "epoch_metrics", "epoch": 13, "stage": "train", "metrics": {"loss": 31952.9036328125, "loss_bc": 0.00043518774098629366, "loss_pde": 31952.89921875}}
+{"ts": "2025-12-30T01:39:04Z", "event": "global_eval", "epoch": 13, "metrics": {"eval_rel_l2": 0.950674783721999, "eval_linf": 0.9439220428466797, "eval_rel_l2_fd": 0.9506754086064981}}
+{"ts": "2025-12-30T01:39:05Z", "event": "epoch_metrics", "epoch": 14, "stage": "train", "metrics": {"loss": 26725.9040234375, "loss_bc": 0.00032571911411650946, "loss_pde": 26725.9008984375}}
+{"ts": "2025-12-30T01:39:05Z", "event": "global_eval", "epoch": 14, "metrics": {"eval_rel_l2": 0.9649580366364604, "eval_linf": 0.9784657955169678, "eval_rel_l2_fd": 0.9649584805712543}}
+{"ts": "2025-12-30T01:39:05Z", "event": "epoch_metrics", "epoch": 15, "stage": "train", "metrics": {"loss": 17148.232890625, "loss_bc": 0.00029453358525643124, "loss_pde": 17148.22986328125}}
+{"ts": "2025-12-30T01:39:05Z", "event": "global_eval", "epoch": 15, "metrics": {"eval_rel_l2": 0.9613530809308876, "eval_linf": 0.9627115726470947, "eval_rel_l2_fd": 0.9613534860778997}}
+{"ts": "2025-12-30T01:39:06Z", "event": "epoch_metrics", "epoch": 16, "stage": "train", "metrics": {"loss": 14753.6277734375, "loss_bc": 0.00013716437557377505, "loss_pde": 14753.62642578125}}
+{"ts": "2025-12-30T01:39:06Z", "event": "global_eval", "epoch": 16, "metrics": {"eval_rel_l2": 0.9603923618822993, "eval_linf": 0.9641711711883545, "eval_rel_l2_fd": 0.9603928636580841}}
+{"ts": "2025-12-30T01:39:07Z", "event": "epoch_metrics", "epoch": 17, "stage": "train", "metrics": {"loss": 11226.513955078124, "loss_bc": 0.00013427797098302107, "loss_pde": 11226.51259765625}}
+{"ts": "2025-12-30T01:39:07Z", "event": "global_eval", "epoch": 17, "metrics": {"eval_rel_l2": 0.9452847909094448, "eval_linf": 0.956764817237854, "eval_rel_l2_fd": 0.9452853996201942}}
+{"ts": "2025-12-30T01:39:08Z", "event": "epoch_metrics", "epoch": 18, "stage": "train", "metrics": {"loss": 6653.78453125, "loss_bc": 0.00010593032973019944, "loss_pde": 6653.78345703125}}
+{"ts": "2025-12-30T01:39:08Z", "event": "global_eval", "epoch": 18, "metrics": {"eval_rel_l2": 0.9405838131297155, "eval_linf": 0.9551231861114502, "eval_rel_l2_fd": 0.940584481395564}}
+{"ts": "2025-12-30T01:39:08Z", "event": "epoch_metrics", "epoch": 19, "stage": "train", "metrics": {"loss": 6282.173579101563, "loss_bc": 8.741427398263113e-05, "loss_pde": 6282.1726904296875}}
+{"ts": "2025-12-30T01:39:08Z", "event": "global_eval", "epoch": 19, "metrics": {"eval_rel_l2": 0.9511061149027585, "eval_linf": 0.9530988335609436, "eval_rel_l2_fd": 0.9511067343228686}}
+{"ts": "2025-12-30T01:39:09Z", "event": "epoch_metrics", "epoch": 20, "stage": "train", "metrics": {"loss": 4797.251264648437, "loss_bc": 7.674061759644247e-05, "loss_pde": 4797.250498046875}}
+{"ts": "2025-12-30T01:39:09Z", "event": "global_eval", "epoch": 20, "metrics": {"eval_rel_l2": 0.9539125124892631, "eval_linf": 0.9698053002357483, "eval_rel_l2_fd": 0.9539130963560705}}
+{"ts": "2025-12-30T01:39:10Z", "event": "epoch_metrics", "epoch": 21, "stage": "train", "metrics": {"loss": 3372.4810107421877, "loss_bc": 8.521502238636458e-05, "loss_pde": 3372.480146484375}}
+{"ts": "2025-12-30T01:39:10Z", "event": "global_eval", "epoch": 21, "metrics": {"eval_rel_l2": 0.9529338037125563, "eval_linf": 0.9576576948165894, "eval_rel_l2_fd": 0.9529343999782944}}
+{"ts": "2025-12-30T01:39:10Z", "event": "epoch_metrics", "epoch": 22, "stage": "train", "metrics": {"loss": 2587.1110327148435, "loss_bc": 9.893999815176358e-05, "loss_pde": 2587.110051269531}}
+{"ts": "2025-12-30T01:39:11Z", "event": "global_eval", "epoch": 22, "metrics": {"eval_rel_l2": 0.9497472569886719, "eval_linf": 0.9601414203643799, "eval_rel_l2_fd": 0.9497478091659463}}
+{"ts": "2025-12-30T01:39:11Z", "event": "epoch_metrics", "epoch": 23, "stage": "train", "metrics": {"loss": 2064.8573413085937, "loss_bc": 7.488707000106842e-05, "loss_pde": 2064.8565869140625}}
+{"ts": "2025-12-30T01:39:11Z", "event": "global_eval", "epoch": 23, "metrics": {"eval_rel_l2": 0.9517208061762201, "eval_linf": 0.9575210809707642, "eval_rel_l2_fd": 0.9517214178090142}}
+{"ts": "2025-12-30T01:39:12Z", "event": "epoch_metrics", "epoch": 24, "stage": "train", "metrics": {"loss": 1653.5073486328124, "loss_bc": 3.6004384406851385e-05, "loss_pde": 1653.5069946289063}}
+{"ts": "2025-12-30T01:39:12Z", "event": "global_eval", "epoch": 24, "metrics": {"eval_rel_l2": 0.9564467837659171, "eval_linf": 0.9624148607254028, "eval_rel_l2_fd": 0.9564472510691504}}
+{"ts": "2025-12-30T01:39:13Z", "event": "epoch_metrics", "epoch": 25, "stage": "train", "metrics": {"loss": 1074.049658203125, "loss_bc": 3.401651384024262e-05, "loss_pde": 1074.0493188476562}}
+{"ts": "2025-12-30T01:39:13Z", "event": "global_eval", "epoch": 25, "metrics": {"eval_rel_l2": 0.9467320772054104, "eval_linf": 0.9624907374382019, "eval_rel_l2_fd": 0.9467327520387262}}
+{"ts": "2025-12-30T01:39:13Z", "event": "epoch_metrics", "epoch": 26, "stage": "train", "metrics": {"loss": 988.1696203613282, "loss_bc": 2.7354307819678068e-05, "loss_pde": 988.1693481445312}}
+{"ts": "2025-12-30T01:39:13Z", "event": "global_eval", "epoch": 26, "metrics": {"eval_rel_l2": 0.9552078573726211, "eval_linf": 0.9585866332054138, "eval_rel_l2_fd": 0.9552083403713943}}
+{"ts": "2025-12-30T01:39:14Z", "event": "epoch_metrics", "epoch": 27, "stage": "train", "metrics": {"loss": 634.2860467529297, "loss_bc": 2.2635520889480176e-05, "loss_pde": 634.2858221435547}}
+{"ts": "2025-12-30T01:39:14Z", "event": "global_eval", "epoch": 27, "metrics": {"eval_rel_l2": 0.946896940817089, "eval_linf": 0.9488582611083984, "eval_rel_l2_fd": 0.9468976135618034}}
+{"ts": "2025-12-30T01:39:15Z", "event": "epoch_metrics", "epoch": 28, "stage": "train", "metrics": {"loss": 571.4453656005859, "loss_bc": 1.8159692651522618e-05, "loss_pde": 571.4451837158203}}
+{"ts": "2025-12-30T01:39:15Z", "event": "global_eval", "epoch": 28, "metrics": {"eval_rel_l2": 0.9523138759924124, "eval_linf": 0.9638412594795227, "eval_rel_l2_fd": 0.9523143956540578}}
+{"ts": "2025-12-30T01:39:15Z", "event": "epoch_metrics", "epoch": 29, "stage": "train", "metrics": {"loss": 536.9422412109375, "loss_bc": 2.2990884604041638e-05, "loss_pde": 536.9420153808594}}
+{"ts": "2025-12-30T01:39:15Z", "event": "global_eval", "epoch": 29, "metrics": {"eval_rel_l2": 0.9556752524684354, "eval_linf": 0.958453357219696, "eval_rel_l2_fd": 0.9556758140036855}}
+{"ts": "2025-12-30T01:39:16Z", "event": "epoch_metrics", "epoch": 30, "stage": "train", "metrics": {"loss": 416.77268859863284, "loss_bc": 2.451935984083775e-05, "loss_pde": 416.77244384765623}}
+{"ts": "2025-12-30T01:39:16Z", "event": "global_eval", "epoch": 30, "metrics": {"eval_rel_l2": 0.9523528115072606, "eval_linf": 0.96131432056427, "eval_rel_l2_fd": 0.9523533306756452}}
+{"ts": "2025-12-30T01:39:17Z", "event": "epoch_metrics", "epoch": 31, "stage": "train", "metrics": {"loss": 307.66715850830076, "loss_bc": 1.0558122735915276e-05, "loss_pde": 307.66705200195315}}
+{"ts": "2025-12-30T01:39:17Z", "event": "global_eval", "epoch": 31, "metrics": {"eval_rel_l2": 0.954201446103788, "eval_linf": 0.9600648880004883, "eval_rel_l2_fd": 0.954202026310193}}
+{"ts": "2025-12-30T01:39:18Z", "event": "epoch_metrics", "epoch": 32, "stage": "train", "metrics": {"loss": 271.8609930419922, "loss_bc": 1.7815035209309828e-05, "loss_pde": 271.8608157348633}}
+{"ts": "2025-12-30T01:39:18Z", "event": "global_eval", "epoch": 32, "metrics": {"eval_rel_l2": 0.9521631170032493, "eval_linf": 0.9581056833267212, "eval_rel_l2_fd": 0.9521637230325569}}
+{"ts": "2025-12-30T01:39:18Z", "event": "epoch_metrics", "epoch": 33, "stage": "train", "metrics": {"loss": 228.53998413085938, "loss_bc": 1.1489857405990734e-05, "loss_pde": 228.5398699951172}}
+{"ts": "2025-12-30T01:39:18Z", "event": "global_eval", "epoch": 33, "metrics": {"eval_rel_l2": 0.9515914152678739, "eval_linf": 0.95592200756073, "eval_rel_l2_fd": 0.9515919440821302}}
+{"ts": "2025-12-30T01:39:19Z", "event": "epoch_metrics", "epoch": 34, "stage": "train", "metrics": {"loss": 221.23573028564454, "loss_bc": 1.1566288623203746e-05, "loss_pde": 221.23561462402344}}
+{"ts": "2025-12-30T01:39:19Z", "event": "global_eval", "epoch": 34, "metrics": {"eval_rel_l2": 0.9571749032312251, "eval_linf": 0.9618494510650635, "eval_rel_l2_fd": 0.9571754457679064}}
+{"ts": "2025-12-30T01:39:20Z", "event": "epoch_metrics", "epoch": 35, "stage": "train", "metrics": {"loss": 173.70551513671876, "loss_bc": 7.12667873187911e-06, "loss_pde": 173.70544494628905}}
+{"ts": "2025-12-30T01:39:20Z", "event": "global_eval", "epoch": 35, "metrics": {"eval_rel_l2": 0.9565113103024552, "eval_linf": 0.9673996567726135, "eval_rel_l2_fd": 0.9565117767882236}}
+{"ts": "2025-12-30T01:39:21Z", "event": "epoch_metrics", "epoch": 36, "stage": "train", "metrics": {"loss": 151.74790008544923, "loss_bc": 8.425903839821558e-06, "loss_pde": 151.74781585693358}}
+{"ts": "2025-12-30T01:39:21Z", "event": "global_eval", "epoch": 36, "metrics": {"eval_rel_l2": 0.9606043535141197, "eval_linf": 0.9646035432815552, "eval_rel_l2_fd": 0.9606047681465065}}
+{"ts": "2025-12-30T01:39:21Z", "event": "epoch_metrics", "epoch": 37, "stage": "train", "metrics": {"loss": 152.1944026184082, "loss_bc": 8.567682078819416e-06, "loss_pde": 152.1943165588379}}
+{"ts": "2025-12-30T01:39:21Z", "event": "global_eval", "epoch": 37, "metrics": {"eval_rel_l2": 0.9616792608839115, "eval_linf": 0.9692813158035278, "eval_rel_l2_fd": 0.9616796618986602}}
+{"ts": "2025-12-30T01:39:22Z", "event": "epoch_metrics", "epoch": 38, "stage": "train", "metrics": {"loss": 147.27096572875976, "loss_bc": 1.0558953204622413e-05, "loss_pde": 147.2708605957031}}
+{"ts": "2025-12-30T01:39:22Z", "event": "global_eval", "epoch": 38, "metrics": {"eval_rel_l2": 0.9649200301686042, "eval_linf": 0.9642150402069092, "eval_rel_l2_fd": 0.9649203901271417}}
+{"ts": "2025-12-30T01:39:23Z", "event": "epoch_metrics", "epoch": 39, "stage": "train", "metrics": {"loss": 119.1550340270996, "loss_bc": 1.0282172624442865e-05, "loss_pde": 119.15493118286133}}
+{"ts": "2025-12-30T01:39:23Z", "event": "global_eval", "epoch": 39, "metrics": {"eval_rel_l2": 0.9695917007386754, "eval_linf": 0.9749101400375366, "eval_rel_l2_fd": 0.969592001513397}}
+{"ts": "2025-12-30T01:39:23Z", "event": "epoch_metrics", "epoch": 40, "stage": "train", "metrics": {"loss": 119.49610321044922, "loss_bc": 8.123826104480258e-06, "loss_pde": 119.49602188110352}}
+{"ts": "2025-12-30T01:39:23Z", "event": "global_eval", "epoch": 40, "metrics": {"eval_rel_l2": 0.968046948967363, "eval_linf": 0.968818187713623, "eval_rel_l2_fd": 0.9680472693120228}}
+{"ts": "2025-12-30T01:39:24Z", "event": "epoch_metrics", "epoch": 41, "stage": "train", "metrics": {"loss": 119.19965133666992, "loss_bc": 1.5493370772503566e-05, "loss_pde": 119.19949569702149}}
+{"ts": "2025-12-30T01:39:24Z", "event": "global_eval", "epoch": 41, "metrics": {"eval_rel_l2": 0.9769458678100399, "eval_linf": 0.9814273715019226, "eval_rel_l2_fd": 0.9769461598750512}}
+{"ts": "2025-12-30T01:39:25Z", "event": "epoch_metrics", "epoch": 42, "stage": "train", "metrics": {"loss": 114.68086791992188, "loss_bc": 1.0633843123173392e-05, "loss_pde": 114.68076217651367}}
+{"ts": "2025-12-30T01:39:25Z", "event": "global_eval", "epoch": 42, "metrics": {"eval_rel_l2": 0.9714466697465122, "eval_linf": 0.9751907587051392, "eval_rel_l2_fd": 0.9714469470212581}}
+{"ts": "2025-12-30T01:39:26Z", "event": "epoch_metrics", "epoch": 43, "stage": "train", "metrics": {"loss": 107.49541427612304, "loss_bc": 1.340749913822492e-05, "loss_pde": 107.4952799987793}}
+{"ts": "2025-12-30T01:39:26Z", "event": "global_eval", "epoch": 43, "metrics": {"eval_rel_l2": 0.9748949543456998, "eval_linf": 0.9774806499481201, "eval_rel_l2_fd": 0.9748952723930409}}
+{"ts": "2025-12-30T01:39:26Z", "event": "epoch_metrics", "epoch": 44, "stage": "train", "metrics": {"loss": 105.13725204467774, "loss_bc": 7.332168725895371e-06, "loss_pde": 105.13717910766601}}
+{"ts": "2025-12-30T01:39:26Z", "event": "global_eval", "epoch": 44, "metrics": {"eval_rel_l2": 0.975982614996928, "eval_linf": 0.9805875420570374, "eval_rel_l2_fd": 0.9759829192650636}}
+{"ts": "2025-12-30T01:39:27Z", "event": "epoch_metrics", "epoch": 45, "stage": "train", "metrics": {"loss": 101.87018905639648, "loss_bc": 1.2478877747525985e-05, "loss_pde": 101.87006469726562}}
+{"ts": "2025-12-30T01:39:27Z", "event": "global_eval", "epoch": 45, "metrics": {"eval_rel_l2": 0.9808262437193443, "eval_linf": 0.9866668581962585, "eval_rel_l2_fd": 0.9808264866251842}}
+{"ts": "2025-12-30T01:39:28Z", "event": "epoch_metrics", "epoch": 46, "stage": "train", "metrics": {"loss": 99.89040618896485, "loss_bc": 7.957468955126502e-06, "loss_pde": 99.89032638549804}}
+{"ts": "2025-12-30T01:39:28Z", "event": "global_eval", "epoch": 46, "metrics": {"eval_rel_l2": 0.9819378062159131, "eval_linf": 0.9883103966712952, "eval_rel_l2_fd": 0.9819381194974908}}
+{"ts": "2025-12-30T01:39:28Z", "event": "epoch_metrics", "epoch": 47, "stage": "train", "metrics": {"loss": 102.4291146850586, "loss_bc": 1.2744352520144276e-05, "loss_pde": 102.42898712158203}}
+{"ts": "2025-12-30T01:39:28Z", "event": "global_eval", "epoch": 47, "metrics": {"eval_rel_l2": 0.9825140687274311, "eval_linf": 0.9833446145057678, "eval_rel_l2_fd": 0.9825142902507863}}
+{"ts": "2025-12-30T01:39:29Z", "event": "epoch_metrics", "epoch": 48, "stage": "train", "metrics": {"loss": 99.54182739257813, "loss_bc": 1.1804689646055521e-05, "loss_pde": 99.541708984375}}
+{"ts": "2025-12-30T01:39:29Z", "event": "global_eval", "epoch": 48, "metrics": {"eval_rel_l2": 0.9826579020935626, "eval_linf": 0.9865761995315552, "eval_rel_l2_fd": 0.9826581217947414}}
+{"ts": "2025-12-30T01:39:30Z", "event": "epoch_metrics", "epoch": 49, "stage": "train", "metrics": {"loss": 93.53916427612305, "loss_bc": 1.459574727078916e-05, "loss_pde": 93.53901824951171}}
+{"ts": "2025-12-30T01:39:30Z", "event": "global_eval", "epoch": 49, "metrics": {"eval_rel_l2": 0.984677734713078, "eval_linf": 0.9883171319961548, "eval_rel_l2_fd": 0.9846778443679324}}
+{"ts": "2025-12-30T01:39:31Z", "event": "epoch_metrics", "epoch": 50, "stage": "train", "metrics": {"loss": 93.8897019958496, "loss_bc": 1.4158078470529745e-05, "loss_pde": 93.88956039428712}}
+{"ts": "2025-12-30T01:39:31Z", "event": "global_eval", "epoch": 50, "metrics": {"eval_rel_l2": 0.9828849273948905, "eval_linf": 0.9857103228569031, "eval_rel_l2_fd": 0.9828851442199625}}
+{"ts": "2025-12-30T01:39:31Z", "event": "epoch_metrics", "epoch": 51, "stage": "train", "metrics": {"loss": 93.51815658569336, "loss_bc": 2.05381510920688e-05, "loss_pde": 93.51795196533203}}
+{"ts": "2025-12-30T01:39:31Z", "event": "global_eval", "epoch": 51, "metrics": {"eval_rel_l2": 0.9819111172295962, "eval_linf": 0.974498987197876, "eval_rel_l2_fd": 0.9819112619337927}}
+{"ts": "2025-12-30T01:39:31Z", "event": "message", "message": "Early stopping triggered", "epoch": 51, "best_epoch": 1, "best_metric": 0.8650786438277996, "primary_metric": "eval_rel_l2", "mode": "min"}
+{"ts": "2025-12-30T01:39:31Z", "event": "loaded_best_checkpoint", "epoch": 1, "metric": 0.8650786438277996}
+{"ts": "2025-12-30T01:39:31Z", "event": "final_eval", "metrics": {"eval_rel_l2": 0.8650786438277996, "eval_linf": 1.0934840440750122, "eval_rel_l2_fd": 0.8650798463543892}}
